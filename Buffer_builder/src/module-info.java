@@ -1,0 +1,2 @@
+module Buffer_builder {
+}
