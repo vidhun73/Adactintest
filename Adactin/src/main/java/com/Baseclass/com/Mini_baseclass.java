@@ -31,7 +31,7 @@ public class Mini_baseclass {
 	public static WebDriver browserlaunch (String browser) {
 		
 		if (browser.equalsIgnoreCase("chrome")) {
-			System.setProperty("webdriver.chrome.driver", "C:\\Users\\vidhun ck\\eclipse-workspace\\miniproject\\driver\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "C:\\Users\\vidhun ck\\git\\Adactintest\\Adactin\\Driver\\chromedriver.exe");
 		driver=new ChromeDriver();
 		}
 		

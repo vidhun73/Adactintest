@@ -12,22 +12,23 @@ public class Pomadcatin {
 	public WebDriver getDriver() {
 		return driver;
 	}
-	public Element getUsername() {
-		return username;
+	public Element getusername() {
+		return Username;
 	}
-	public Element getPasswords() {
-		return passwords;
+	public Element getpasswords() {
+		return Passwords;
 	}
-	public Element getLogin() {
-		return login;
+	public Element getlogin() {
+		return Login;
 	}
-	@FindBy (name="Username")
-	private Element username;
+	@FindBy (name="username")
+	private Element Username;
 
-   @FindBy(name ="Passwords")
-   private Element passwords;
-   @FindBy(id="Login")
-   private Element login;
+   @FindBy(name ="passwords")
+   private Element Passwords;
+   
+   @FindBy(id="login")
+   private Element Login;
    
 
 		
